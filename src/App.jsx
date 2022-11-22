@@ -1,4 +1,5 @@
 import './App.css'
+import Emoji from './components/Emoji'
 import Input from './components/Input'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Emoji Picker</h1>
       <Input />
+      <Emoji />
     </div>
   )
 }
